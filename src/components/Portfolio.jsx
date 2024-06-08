@@ -84,6 +84,14 @@ const Portfolio = () => {
       githuburl:"https://github.com/mdraselkh/Pattern-Recognition-Project.git",
       style:"bg-[#83def7]"
     },
+    {
+      id: 10,
+      src: img9,
+      category:"ML",
+      siteurl:'https://github.com/mdraselkh/Pattern-Recognition-Project.git',
+      githuburl:"https://github.com/mdraselkh/Pattern-Recognition-Project.git",
+      style:"bg-[#83def7]"
+    },
   ];
 
   const [nextitems, setNextitems] = useState(6);
