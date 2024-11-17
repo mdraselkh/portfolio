@@ -14,6 +14,10 @@ import figma from "../assets/figma.png"
 import ml from "../assets/ml.png"
 import nlp from "../assets/nlp.png"
 import cv from "../assets/cv.png"
+import nextjs from "../assets/next-js.png"
+import postgres from "../assets/postgre.png"
+import shadcn from "../assets/shadcn.png"
+import prisma from "../assets/prism.png"
 
 const Skills = () => {
    
@@ -89,6 +93,30 @@ const Skills = () => {
          src:git,
          title:"Git",
          style:"shadow-orange-400",
+      },
+      {
+         id:13,
+         src:nextjs,
+         title:"Next Js",
+         style:"shadow-gray-600",
+      },
+      {
+         id:14,
+         src:postgres,
+         title:"PostgreSQL",
+         style:"shadow-sky-900",
+      },
+      {
+         id:15,
+         src:prisma,
+         title:"Prisma",
+         style:"shadow-gray-600",
+      },
+      {
+         id:16,
+         src:shadcn,
+         title:"ShadCN UI",
+         style:"shadow-gray-200",
       },
    ]
 
